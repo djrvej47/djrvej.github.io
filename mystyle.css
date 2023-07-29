@@ -1,4 +1,4 @@
-@font-face {
+font-face {
     font-family: "Hypertext";
     src: url("Fixedsys.ttf");
 }
@@ -105,3 +105,20 @@ h2 {
     overflow: hidden;
 }
 
+.soxer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+
+}
+
+.soxer img {
+    flex-shrink: 0;
+    min-width: 70%;
+    min-height: 70%;
+	height: 80%;
+	
+	
+}
