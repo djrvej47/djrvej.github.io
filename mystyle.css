@@ -55,7 +55,6 @@ h2 {
 
 .container{
 	margin: 0 auto;
-	width: 1280px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
