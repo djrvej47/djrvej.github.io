@@ -29,7 +29,7 @@ body {
     bottom: 0;
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   .overlay {
     width: 100%;
     word-wrap: break-word;
@@ -64,7 +64,7 @@ h1 {
 
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   h1 {
     font-size: 1em;
 	
@@ -79,7 +79,7 @@ h2 {
 
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   h2 {
     font-size: 0.8em;
 	
@@ -100,7 +100,7 @@ h2 {
 
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   .boxer {
 	height: 70vh;
     display: block;
@@ -116,7 +116,7 @@ h2 {
     min-height: 100%
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   .boxer img {
 	display:block;
 	margin:0 auto;
@@ -132,7 +132,7 @@ h2 {
 
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   .counter {
     display: flex;
     flex-wrap: wrap;
@@ -154,7 +154,7 @@ h2 {
 
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   .soxer {
 	height: 70vh;
     display: block;
@@ -172,7 +172,7 @@ h2 {
 	
 }
 
-@media (max-width: 801px) {
+@media (max-width: 480) {
   .soxer img {
 	display:block;
 	margin:0 auto;
