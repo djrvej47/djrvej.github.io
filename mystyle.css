@@ -33,7 +33,8 @@ body {
   .overlay {
     width: 100%;
     word-wrap: break-word;
-	margin: 10px;
+	margin-left: 10px;
+	margin-left: 10px;
 	position: relative;
   }
 }
