@@ -31,7 +31,7 @@ body {
 
 @media (max-width: 1170px) {
   .overlay {
-    width: 100%;
+    width: 90%;
     word-wrap: break-word;
 	margin-left: 10px;
 	margin-left: 10px;
@@ -56,6 +56,11 @@ a.cr {
 
 }
 
+@media (max-width: 1170px) {
+  a.cr {
+	color: black;
+  }
+}
 
 h1 {
     font-family: Hypertext;
@@ -69,6 +74,8 @@ h1 {
   h1 {
     font-size: 1em;
 	color: black;
+	background-color: black;
+	line-height: 2em;
   }
 }
 
