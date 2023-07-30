@@ -122,8 +122,7 @@ h2 {
 
 .boxer img {
     flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    height: 100%;
 }
 
 @media (max-width: 1170px) {
