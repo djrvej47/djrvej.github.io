@@ -59,6 +59,7 @@ a.cr {
 @media (max-width: 1170px) {
   a.cr {
 	color: black;
+	min-width: 40px;
   }
 }
 
@@ -98,6 +99,7 @@ h2 {
     position: relative;
 
 }
+
 
 .boxer {
     height: 100vh;
@@ -143,7 +145,8 @@ h2 {
 @media (max-width: 1170px) {
   .counter {
     display: flex;
-    flex-wrap: wrap;
+    overflow-x: scroll;
+
   }
 }
 
