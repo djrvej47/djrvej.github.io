@@ -34,6 +34,7 @@ body {
     width: 100%;
     word-wrap: break-word;
 	margin: 10px;
+	position: relative;
   }
 }
 
@@ -99,10 +100,29 @@ h2 {
 
 }
 
+@media (max-width: 801px) {
+  .boxer {
+	height: 70vh;
+    display: block;
+    margin:0 auto;
+    overflow: scroll;
+	
+  }
+}
+
 .boxer img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
+}
+
+@media (max-width: 801px) {
+  .boxer img {
+	display:block;
+	margin:0 auto;
+  object-fit: contain;
+	max-height: 100%
+  }
 }
 
 .counter {
@@ -136,10 +156,10 @@ h2 {
 
 @media (max-width: 801px) {
   .soxer {
-	height: 100vh; 
-	display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 70vh;
+    display: block;
+    margin:0 auto;
+    overflow: scroll;
 	
   }
 }
@@ -154,9 +174,10 @@ h2 {
 
 @media (max-width: 801px) {
   .soxer img {
-    width: 100%;
-	height: 100%; 
-	object-fit: contain;
-	
+	display:block;
+	margin:0 auto;
+  object-fit: contain;
+	max-height: 100%
   }
+}
 }
