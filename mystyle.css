@@ -68,7 +68,7 @@ h1 {
 @media (max-width: 1170px) {
   h1 {
     font-size: 1em;
-	
+	color: black;
   }
 }
 
@@ -83,7 +83,7 @@ h2 {
 @media (max-width: 1170px) {
   h2 {
     font-size: 0.8em;
-	
+	color: black;
   }
 }
 
